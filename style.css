@@ -1,0 +1,88 @@
+body {
+	font-family : Verdana, Geneva, sans-serif;
+	font-size : 90%;
+	color : rgb(80,80,120);
+	margin : 0;
+	padding : 10px;
+	background-color : rgb(245,245,255);
+}
+h3 { text-align : center; padding-top : 10px; padding-bottom : 10px; }
+h3 a { text-decoration : none; border-bottom : 1px solid; }
+.image-infos {
+	width : 100%;
+	display : table;
+	width : 100%;
+	margin : 30px 0px 40px 0px;
+}
+.image-infos .image, .image-infos .liens-images {
+	display : table-cell;
+	vertical-align : middle;
+	width : 50%;
+}
+.titre-formulaire {
+	text-align : center;
+	border-top : 1px solid rgb(235,235,255);
+	border-bottom : 1px solid rgb(235,235,255);
+	padding-top : 20px;
+	padding-bottom : 20px;
+	margin-top : 0;
+}
+.formulaire {
+	display : table;
+	width : 100%;
+	border-top : 1px solid rgb(225,225,245);
+}
+.formulaire .entree { display : table-row; }
+.formulaire .entree .label, .entree .champ {
+	display : table-cell;
+	vertical-align : middle;
+	padding : 10px 5px 10px 5px;
+	border-bottom : 1px solid rgb(225,225,245);
+}
+.formulaire .entree .label { width : 40%; }
+.formulaire .entree .label { font-weight : bold; }
+.soumission {
+	margin-top : 20px;
+	margin-bottom : 30px;
+}
+.soumission input {
+	display : block;
+	width : 100%;
+	height : 60px;
+	margin : auto;
+	font-weight : bold;
+	font-size : 145%;
+	color : rgb(50,50,150);
+	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+.messages { width : 100%; }
+.messages .error, .messages .success, .messages .attention {
+	padding : 10px 10px 10px 10px;
+	border-width : 1px;
+	border-style : solid;
+	text-align : center;
+	font-weight : bold;
+}
+.messages .error {
+	border-color :		rgb(255,180,180);
+	background-color :	rgb(255,240,240);
+}
+.messages .success {
+	border-color :		rgb(180,255,180);
+	background-color :	rgb(240,255,240);
+}
+.messages .attention {
+	border-color :		rgb(255,255,180);
+	background-color :	rgb(255,255,220);
+}
+.liens-images {
+	text-align : center;
+}
+.liens-images .titre { font-weight : bold; }
+a {
+	color : rgb(140,140,200);
+	font-weight : bold;
+	text-decoration : none;
+	border-bottom : 1px solid;
+}
+a:hover { color : rgb(200,200,240); }
